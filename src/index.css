@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Crystal';
+  src: url('src/assets/fonts/CrystalWaveRegular-GOLzO.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'femen';
+  src: url('src/assets/fonts/femen.otf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #f9fef6;
+}
