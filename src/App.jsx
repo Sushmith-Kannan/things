@@ -6,19 +6,20 @@ import Para from './components/Para';
 import Some from './components/Para';
 import Cinnamon from './components/Cinnamon';
 import Para2 from './components/para2';
+import Sunflower from './components/Sunflower';
 
 
 
 const App = () => {
- // Use a line break for the desired new line
+ 
 
   return (
     <>
     <Header/>
      <Hustle/>
      <Cinnamon/>
+     <Sunflower/>
      <Para2/>
-    
      <Des/>
      <Para/>
      

@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Hustle() {
-    const text = "Hustle.\n Conquer.";
+    const text = "hustle. \n conquer. ";
   return (
     <div>
 
@@ -23,6 +23,8 @@ function Hustle() {
         ))}
          
       </h1>
+
+     
 
         </div>
   )

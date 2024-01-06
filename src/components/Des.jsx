@@ -2,6 +2,13 @@ import React, { useEffect, useRef } from 'react';
 import 'animate.css/animate.min.css';
 
 function Des() {
+  const redirectToGitHub = () => {
+    // Replace 'your-username' and 'your-repo' with the actual GitHub username and repository name
+    const githubUrl = 'https://github.com/Sushmith-Kannan';
+
+    // Redirect to GitHub page
+    window.location.href = githubUrl;
+  };
   const DesRef = useRef(null);
 
   useEffect(() => {
@@ -38,12 +45,12 @@ function Des() {
     <div>
       <h1
         ref={DesRef}
-        className="font-custom text-bubble text-7xl xs:text-4xl sm:text-7xl mt-[40rem] xs:mt-80 xs:ml-9  sm:mt-7 ml-32 "
+        className="font-custom text-bubble text-7xl xs:text-4xl sm:ml-24 sm:text-5xl mt-[40rem] xs:mt-80 xs:ml-9  sm:mt-[20rem] ml-32 "
         style={{ opacity: 0, visibility: 'hidden', }}
       >
-      find my CV.
+      find my works.
       </h1>
-      <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800 ml-36 mt-5 xs:ml-9 ">Resume</button>
+      <button type="button" className="text-green hover:text-white border hover:bg-green  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ml-36 mt-5 xs:ml-9 sm:ml-28 " onClick={redirectToGitHub}>github</button>
     </div>
   );
 }
