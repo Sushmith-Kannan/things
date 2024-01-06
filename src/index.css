@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Crystal';
-  src: url('./fonts/CrystalWaveRegular-GOLzO.ttf') format('truetype');
+  src: url('/assets/src/assets/fonts/CrystalWaveRegular-GOLzO.ttf') format('truetype');
 }
 @font-face {
   font-family: 'femen';
-  src: url('./fonts/femen.otf') format('truetype');
+  src: url('/assets/src/assets/fonts/femen.otf') format('truetype');
 }
 
 @tailwind base;
